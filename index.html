@@ -80,6 +80,15 @@
         <div class="container">
             <h2 class="section-title">Sobre Mim</h2>
             <div class="about-content">
+                <div class="about-text">
+                    <p>Sou farmacêutica formada pela Faculdade Osvaldo Cruz com mais de 25 anos de experiência na área farmacêutica. Ao longo de minha carreira, dediquei 12 anos especificamente à gestão e assistência farmacêutica no setor público, atuando em prefeituras da região metropolitana de São Paulo.</p>
+                    
+                    <p>Atualmente trabalho como Farmacêutica Responsável Técnica no CAPS AD III da Prefeitura de Barueri, onde desenvolvo atividades relacionadas ao atendimento de pessoas com transtornos relacionados ao uso de álcool e outras drogas. Minha experiência inclui trabalho em Unidades Básicas de Saúde, Farmácia Popular do Brasil e apoio técnico em diversos municípios.</p>
+                    
+                    <p>Paralelamente à formação farmacêutica, sou especialista em Medicina Tradicional Chinesa e Acupuntura, áreas que complementam minha visão holística do cuidado com a saúde. Atualmente estou cursando pós-graduação em Gestão de Assistência Farmacêutica pela UFSC, buscando constantemente aprimorar meus conhecimentos na área.</p>
+                    
+                    <p>Além da atividade profissional, dedico tempo ao trabalho voluntário, atuando no Grupo Escoteiro Cooper Cotia - 131 e como representante do GAP no CooperAtlético Clube, contribuindo para o desenvolvimento comunitário e melhoria da qualidade de vida dos associados.</p>
+                </div>
                 
                 <div class="about-stats">
                     <div class="stat-item">
@@ -95,6 +104,14 @@
             </div>
         </div>
     </section>
+
+    <!-- Anúncio AdSense - Topo -->
+    <div class="ad-container" style="text-align: center; margin: 40px 0; padding: 20px;">
+        <!-- Aqui será inserido o código do anúncio AdSense quando aprovado -->
+        <div style="width: 728px; height: 90px; margin: 0 auto; background: #f5f5f5; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;">
+            Espaço reservado para anúncio (728x90)
+        </div>
+    </div>
 
     <!-- Experience Section -->
     <section id="experience" class="section experience">
@@ -188,6 +205,14 @@
             </div>
         </div>
     </section>
+
+    <!-- Anúncio AdSense - Meio -->
+    <div class="ad-container" style="text-align: center; margin: 40px 0; padding: 20px;">
+        <div style="width: 336px; height: 280px; margin: 0 auto; background: #f5f5f5; border: 1px dashed #ccc; display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;">
+            Espaço reservado para anúncio (336x280)
+        </div>
+    </div>
+
     <!-- Skills Section -->
     <section id="skills" class="section skills">
         <div class="container">
@@ -301,8 +326,8 @@
                     <ul>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#experience">Experiência</a></li>
-                        <li><a href="#projects">Projetos</a></li>
                         <li><a href="#contact">Contato</a></li>
+                        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
                     </ul>
                 </div>
                 
@@ -314,6 +339,25 @@
     </footer>
 
     <script src="js/script.js"></script>
+    
+    <!-- Cookie Consent Modal -->
+    <div id="privacyModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 10000;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 30px; border-radius: 10px; max-width: 500px; text-align: center;">
+            <h3 style="margin-bottom: 15px;">Política de Cookies</h3>
+            <p style="margin-bottom: 20px; font-size: 14px; line-height: 1.5;">
+                Este site utiliza cookies e tecnologias similares para melhorar sua experiência de navegação e para fins de análise. 
+                Também utilizamos o Google AdSense para exibir anúncios personalizados.
+            </p>
+            <div style="display: flex; gap: 10px; justify-content: center;">
+                <button id="acceptPrivacy" style="background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Aceitar</button>
+                <button id="rejectPrivacy" style="background: #95a5a6; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Recusar</button>
+            </div>
+            <p style="margin-top: 15px; font-size: 12px;">
+                <a href="politica-privacidade.html" style="color: #3498db; text-decoration: none;">Leia nossa Política de Privacidade completa</a>
+            </p>
+        </div>
+    </div>
+    
     <script>
 // Verifica se o usuário já fez uma escolha
 if (!localStorage.getItem('privacyAccepted')) {

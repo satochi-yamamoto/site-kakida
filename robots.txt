@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://kakida.com.br/sitemap.xml
+
+# Arquivo ads.txt para AdSense
+Allow: /ads.txt

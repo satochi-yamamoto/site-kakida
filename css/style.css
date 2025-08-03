@@ -207,6 +207,19 @@ section {
     text-align: center;
 }
 
+.about-text {
+    max-width: 900px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
 .about-content p {
     max-width: 800px;
     margin-bottom: 30px;
